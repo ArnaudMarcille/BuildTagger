@@ -1,7 +1,7 @@
 # Build Tagger
 Build tagger is an azure devops who allow to add a custom tag to the current running build.
 
-## How to instal it
+## How to install
 
 For now, the extension is private, for early tests. Then you could find it on the marketplace.
 
