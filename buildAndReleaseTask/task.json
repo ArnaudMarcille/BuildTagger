@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+    "id": "c735bf4a-1ace-49b2-b449-a8c8d7e3444f",
+    "name": "BuildTagger",
+    "friendlyName": "Build tagger",
+    "description": "Allow to add tag to current build",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "Marcille Arnaud",
+    "version": {
+        "Major": 1,
+        "Minor": 0,
+        "Patch": 12
+    },
+    "instanceNameFormat": "Add build tag",
+    "inputs": [
+        {
+            "name": "Tag",
+            "type": "string",
+            "label": "Tag to add :",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Tag to be added to the current build"
+        }
+    ],
+    "execution": {
+        "Node10": {
+            "target": "index.js"
+        }
+    }
+}
