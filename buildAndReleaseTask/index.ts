@@ -67,8 +67,6 @@ export function getParameters(): IParameters {
 
     }
 
-  
-
     return {
         projectName: teamProject,
         buildId: Number(buildId),

@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "build-tagger-task",
     "name": "Build tagger",
-    "version": "1.0.12",
+    "version": "1.0.0",
     "publisher": "Mybiblipi",
     "targets": [
         {
@@ -32,5 +32,8 @@
                 "name": "buildAndReleaseTask"
             }
         }
+    ],
+    "galleryFlags": [
+        "Preview"
     ]
 }
